@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 50px 0;
+  opacity: .7;
+}
+
+.h1 {
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list__title {
+  margin-left: 50px;
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.list-page-item {
+  cursor: pointer;
+}
+
+.list-comments {
+  margin-top: 50px;
+}
+
+.comment-item {
+  border-radius: 10px;
+}
+
+.comment-item p {
+  padding-left: 20px;
+}
+
+.commentator-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.semi-bold {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.italic {
+  font-style: italic;
+}
+
